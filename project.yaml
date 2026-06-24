@@ -1,0 +1,7 @@
+name: o1-watch
+status: active
+type: code
+primary_host: pellel
+repo: github.com/pellell/o1-watch
+goal: "TODO"
+idle_alert_days: 7
