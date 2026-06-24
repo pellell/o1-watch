@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "title": "o1 Watch",
+    "subtitle": "The people behind OpenAI o1 — and what they're working on now",
+    "source_page": "https://openai.com/openai-o1-contributions/",
+    "note": "Roster is the Foundational + Leadership tiers of OpenAI's o1 contributions page (28 people). Links and 'highlights' are curated notable work/posts, not a live social feed — refresh on request.",
+    "last_curated": "2026-06-25"
+  },
+  "influence": {
+    "headline": "o1 created the reasoning-model category the whole industry now follows.",
+    "summary": "Released September 2024, OpenAI o1 (“Learning to Reason with LLMs”) was trained with large-scale reinforcement learning to produce a long internal chain-of-thought before answering. Its key result: accuracy scales with test-time ‘thinking’ compute — a new scaling axis beyond pretraining. It established RL-on-chain-of-thought and inference-time scaling as standard practice and triggered fast-follow reasoning models across the field.",
+    "benchmarks": [
+      {"name": "AIME (math olympiad qualifier)", "result": "74% single-sample, 83% with 64-sample consensus, 93% re-ranked — vs GPT-4o’s 12%"},
+      {"name": "Codeforces (competitive programming)", "result": "89th percentile"},
+      {"name": "GPQA (PhD-level science)", "result": "First model to exceed PhD-level human accuracy in physics/biology/chemistry"}
+    ],
+    "ripple_effects": [
+      "Spawned OpenAI’s own lineage: o1-mini → o3 / o3-mini → o4-mini",
+      "Triggered competing reasoning models: DeepSeek-R1, Google Gemini 2.5 ‘thinking’, Anthropic extended thinking, Alibaba QwQ/Qwen, xAI Grok",
+      "Shifted evaluation focus toward hard math/coding/science reasoning over chat quality",
+      "Popularized ‘test-time compute’ as a first-class scaling lever"
+    ],
+    "sources": [
+      {"title": "OpenAI — Learning to reason with LLMs", "url": "https://openai.com/index/learning-to-reason-with-llms/"},
+      {"title": "Encord — OpenAI o1 analysis", "url": "https://encord.com/blog/openai-o1/"},
+      {"title": "ChatForest — o1 / o1-pro review", "url": "https://chatforest.com/reviews/openai-o1-o1-pro-reasoning-model-review/"}
+    ]
+  },
+  "people": [
+    {
+      "name": "Jakub Pachocki",
+      "section": "Leadership",
+      "role": "OpenAI Chief Scientist",
+      "x": "https://x.com/merettm",
+      "blog": null,
+      "site": "https://en.wikipedia.org/wiki/Jakub_Pachocki",
+      "bio": "Polish computer scientist and former competitive programmer, OpenAI's Chief Scientist (since May 2024, succeeding Ilya Sutskever). Joined in 2017, led OpenAI Five and GPT-4, and now sets research direction including the push toward reasoning models and an autonomous AI researcher.",
+      "highlights": [
+        {"title": "Announced as Chief Scientist", "url": "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist/", "note": "OpenAI announcement of his appointment"},
+        {"title": "The two people shaping OpenAI's research", "url": "https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/", "note": "MIT Tech Review profile of Pachocki and Mark Chen"},
+        {"title": "Building a fully automated researcher", "url": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/", "note": "MIT Tech Review on the AI-researcher grand challenge he leads"}
+      ]
+    },
+    {
+      "name": "Jerry Tworek",
+      "section": "Leadership",
+      "role": "VP of Research — o1 overall lead",
+      "x": "https://x.com/MillionInt",
+      "blog": "https://millionintegrals.com/",
+      "site": "https://millionintegrals.com/",
+      "bio": "Mathematician and former quant trader; VP of Research at OpenAI focused on teaching models to reason about science, math and programming. Led the o1 and o3 efforts and earlier worked on Codex (the basis for GitHub Copilot); departed OpenAI in early 2026.",
+      "highlights": [
+        {"title": "A new way forward for LLMs", "url": "https://www.fastcompany.com/91246222/openai-researcher-jerry-tworek-human-brain-o1-models", "note": "Fast Company profile on his o1 reasoning breakthrough"},
+        {"title": "Personal site / blog", "url": "https://millionintegrals.com/", "note": "millionintegrals.com — his writing and research focus"}
+      ]
+    },
+    {
+      "name": "Liam Fedus",
+      "section": "Leadership",
+      "role": "VP of Research (post-training) — now co-founder, Periodic Labs",
+      "x": "https://x.com/LiamFedus",
+      "blog": null,
+      "site": null,
+      "bio": "ML researcher (PhD, Université de Montréal; ex-Google Brain) who led OpenAI's post-training team. In March 2025 left to co-found Periodic Labs, building AI foundation models for materials science and chemistry.",
+      "highlights": [
+        {"title": "Departure announcement", "url": "https://x.com/LiamFedus/status/1901740085416218672", "note": "His own X post announcing he's leaving OpenAI"},
+        {"title": "Founding a materials-science startup", "url": "https://techcrunch.com/2025/03/17/openai-exec-leaves-to-found-materials-science-startup/", "note": "TechCrunch coverage of Periodic Labs"}
+      ]
+    },
+    {
+      "name": "Lukasz Kaiser",
+      "section": "Leadership",
+      "role": "Research scientist — co-inventor of the Transformer",
+      "x": "https://x.com/lukaszkaiser",
+      "blog": null,
+      "site": "https://scholar.google.com/citations?user=JWmiQR0AAAAJ&hl=en",
+      "bio": "Polish AI researcher and logician, co-author of 'Attention Is All You Need' (the Transformer) and creator of Tensor2Tensor/Trax. After ~8 years at Google Brain, joined OpenAI in 2021 and was a foundational contributor to the o1 series; shared the 2024 NEC C&C Prize with his Transformer co-authors.",
+      "highlights": [
+        {"title": "Attention Is All You Need", "url": "https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf", "note": "The Transformer paper he co-authored"},
+        {"title": "What's Next for AI? (MAD Podcast)", "url": "https://getpodcast.com/podcast/the-mad-podcast-with-matt-turck/whats-next-for-ai-openais-lukasz-kaiser-transformer-co-author_2eb4deadcb", "note": "Interview on reasoning models and the future of AI"}
+      ]
+    },
+    {
+      "name": "Mark Chen",
+      "section": "Leadership",
+      "role": "Chief Research Officer / SVP Research",
+      "x": "https://x.com/markchen90",
+      "blog": null,
+      "site": "https://www.linkedin.com/in/markchen90/",
+      "bio": "OpenAI's Chief Research Officer (elevated March 2025) and former Jane Street quant; joined in 2018. Instrumental in DALL·E, Codex, GPT-4 and multimodal reasoning, and co-leads overall research direction; also coaches the USA IOI competitive-programming team.",
+      "highlights": [
+        {"title": "Named Chief Research Officer", "url": "https://openai.com/index/leadership-updates-march-2025/", "note": "OpenAI leadership update"},
+        {"title": "Shaping OpenAI's research", "url": "https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/", "note": "MIT Tech Review profile with Pachocki"},
+        {"title": "On models, poker and what's next", "url": "https://www.corememory.com/p/openais-research-chief-mark-chen", "note": "Core Memory podcast interview"}
+      ]
+    },
+    {
+      "name": "Szymon Sidor",
+      "section": "Leadership",
+      "role": "Technical Fellow / research lead",
+      "x": "https://x.com/sidorszymon",
+      "blog": null,
+      "site": "https://github.com/siemanko",
+      "bio": "Technical Fellow and longtime research engineer; built the Rapid large-scale RL framework used for OpenAI Five (Dota) and was optimization vice-lead on GPT-4. Sam Altman has named him (with Pachocki) as someone 'OpenAI would not be OpenAI without.'",
+      "highlights": [
+        {"title": "Jakub and Szymon", "url": "https://blog.samaltman.com/jakub-and-szymon", "note": "Sam Altman blog post praising Sidor and Pachocki"},
+        {"title": "GPT-4 contributions", "url": "https://openai.com/contributions/gpt-4/", "note": "OpenAI credits for his optimization work"}
+      ]
+    },
+    {
+      "name": "Wojciech Zaremba",
+      "section": "Leadership",
+      "role": "OpenAI co-founder",
+      "x": "https://x.com/woj_zaremba",
+      "blog": null,
+      "site": "https://woj.world",
+      "bio": "Polish computer scientist and OpenAI co-founder who has led efforts across robotics (the Rubik's-Cube-solving hand), Codex/GitHub Copilot, and the GPT models behind ChatGPT. Now focuses on AI resilience and safety.",
+      "highlights": [
+        {"title": "Personal site", "url": "https://woj.world", "note": "woj.world"},
+        {"title": "Wikipedia biography", "url": "https://en.wikipedia.org/wiki/Wojciech_Zaremba", "note": "Career overview and OpenAI work"}
+      ]
+    },
+    {
+      "name": "Ahmed El-Kishky",
+      "section": "Foundational",
+      "role": "Researcher — reasoning & tool use (o-series)",
+      "x": "https://x.com/ahelkky",
+      "blog": null,
+      "site": "https://ahelk.github.io/",
+      "bio": "AI researcher at OpenAI working on teaching models to reason and use tools, starting with competitive programming via expert iteration and RL. Foundational contributor to o1; PhD from UIUC (Jiawei Han's group), with prior NLP/graph-ML work at Twitter.",
+      "highlights": [
+        {"title": "Competitive Programming with Large Reasoning Models", "url": "https://arxiv.org/abs/2502.06807", "note": "RL-trained reasoning for competitive programming"},
+        {"title": "On the o1 reasoning reveal", "url": "https://x.com/ahelkky/status/1834344072896807387", "note": "Thread tied to o1's public launch"},
+        {"title": "How to cite the o-series", "url": "https://twitter.com/ahelkky/status/1877384710449455304", "note": "Canonical citation for the o-series models"}
+      ]
+    },
+    {
+      "name": "Daniel Selsam",
+      "section": "Foundational",
+      "role": "Researcher — formal mathematics & reasoning",
+      "x": null,
+      "blog": null,
+      "site": "https://github.com/dselsam",
+      "bio": "Researcher at OpenAI spanning theorem proving, probabilistic programming, neural SAT (NeuroSAT), formal math and synthetic data. Founded and leads the IMO Grand Challenge (AI for an IMO gold medal); PhD from Stanford (2019). Foundational contributor to o1.",
+      "highlights": [
+        {"title": "Google Scholar", "url": "https://scholar.google.com/citations?user=yaSqFaEAAAAJ&hl=en", "note": "Theorem proving, NeuroSAT, reasoning"},
+        {"title": "Future of Math & AI (with Terence Tao)", "url": "https://forum.openai.com/public/videos/exploring-the-future-of-math-and-ai-with-terence-tao-and-openai-2023", "note": "OpenAI Forum panel he joined"}
+      ]
+    },
+    {
+      "name": "Francis Song",
+      "section": "Foundational",
+      "role": "Member of Technical Staff — ex-DeepMind",
+      "x": null,
+      "blog": null,
+      "site": "https://www.nervouscomputer.com/hfs/",
+      "bio": "H. Francis Song, MTS at OpenAI and foundational contributor to o1. A former physicist/neuroscientist turned ML researcher; at DeepMind worked on multi-agent reasoning, theory of mind, and deep RL (e.g. the Hanabi challenge, Machine Theory of Mind).",
+      "highlights": [
+        {"title": "The Hanabi Challenge", "url": "https://www.sciencedirect.com/science/article/pii/S0004370219300116", "note": "Reasoning about other agents' beliefs"},
+        {"title": "Machine Theory of Mind", "url": "https://arxiv.org/abs/1802.07740", "note": "Neural nets modeling other agents' mental states"}
+      ]
+    },
+    {
+      "name": "Giambattista Parascandolo",
+      "section": "Foundational",
+      "role": "Research Fellow — reasoning (o1/o3)",
+      "x": "https://x.com/giambattista92",
+      "blog": null,
+      "site": "https://sites.google.com/view/giambattista-parascandolo/home",
+      "bio": "Research Fellow at OpenAI and foundational researcher on the 'strawberry' reasoning team behind o1, o3 and GPT-5 Thinking. PhD at the Max Planck Institute / ETH Zurich (Schölkopf & Hofmann) on out-of-distribution generalization; prior work at DeepMind and Google X.",
+      "highlights": [
+        {"title": "Google Scholar", "url": "https://scholar.google.com/citations?user=1zCDX_UAAAAJ", "note": "Causality, OOD generalization, reasoning"},
+        {"title": "Personal site", "url": "https://sites.google.com/view/giambattista-parascandolo/home", "note": "Bio and research overview"}
+      ]
+    },
+    {
+      "name": "Hongyu Ren",
+      "section": "Foundational",
+      "role": "Research scientist — o1-mini / o3-mini lead (later Meta)",
+      "x": "https://x.com/ren_hongyu",
+      "blog": null,
+      "site": "http://hyren.me/",
+      "bio": "Foundational contributor to o1 and a lead on o1-mini and o3-mini (also contributed to GPT-4o). PhD in CS at Stanford, BS from Peking University; research on enhancing LLM reasoning and generalization. Later moved to Meta's superintelligence effort.",
+      "highlights": [
+        {"title": "Homepage", "url": "http://hyren.me/", "note": "o-series work and publications"},
+        {"title": "Learning to Reason with LLMs (talk)", "url": "https://forum.openai.com/public/videos/learning-to-reason-with-llms-2024-10-04", "note": "OpenAI Forum talk on o1"},
+        {"title": "Google Scholar", "url": "https://scholar.google.com/citations?user=cbuy0ocAAAAJ", "note": "ML reasoning and graph learning"}
+      ]
+    },
+    {
+      "name": "Hunter Lightman",
+      "section": "Foundational",
+      "role": "Member of Technical Staff — process supervision / verification",
+      "x": "https://x.com/HunterLightman",
+      "blog": null,
+      "site": "https://www.hunterlightman.com/",
+      "bio": "MTS at OpenAI working on reasoning and verification. Lead author of 'Let's Verify Step by Step,' showing process supervision beats outcome supervision on math — foundational to o1. Released the PRM800K step-level feedback dataset.",
+      "highlights": [
+        {"title": "Let's Verify Step by Step", "url": "https://arxiv.org/abs/2305.20050", "note": "Lead-authored process-supervision paper behind o1"},
+        {"title": "On o1 and teaching models to reason", "url": "https://x.com/yasuoyamasaki/status/1876644462522454148", "note": "Talk with Noam Brown and Ilge Akkaya"}
+      ]
+    },
+    {
+      "name": "Hyung Won Chung",
+      "section": "Foundational",
+      "role": "Research scientist — scaling, instruction tuning, reasoning (later Meta)",
+      "x": "https://x.com/hwchung27",
+      "blog": null,
+      "site": "https://hwchung2.github.io/",
+      "bio": "AI research scientist (ex-Google Brain, ex-OpenAI, now Meta Superintelligence Labs); PhD from MIT. At Google: T5X, PaLM, instruction fine-tuning (Flan). At OpenAI: foundational contributor to o1 and Deep Research, led Codex-mini training. Talks emphasize scaling and exponentially cheaper compute.",
+      "highlights": [
+        {"title": "Stanford CS25: History of Transformer Architectures", "url": "https://www.youtube.com/watch?v=3gb-ZkVRemQ", "note": "Lecture on scaling as AI's driving force"},
+        {"title": "Joining OpenAI", "url": "https://x.com/hwchung27/status/1625583734086045696", "note": "His move from Google Brain"},
+        {"title": "Google Scholar", "url": "https://scholar.google.com/citations?user=1CAlXvYAAAAJ&hl=en", "note": "Flan instruction-tuning and scaling work"}
+      ]
+    },
+    {
+      "name": "Ilge Akkaya",
+      "section": "Foundational",
+      "role": "Researcher / reasoning team lead",
+      "x": null,
+      "blog": null,
+      "site": "https://ilge.github.io/",
+      "bio": "Researcher and team lead in OpenAI's LLM reasoning group, building the models behind o1 and o3. PhD in EECS from UC Berkeley (cyber-physical systems); earlier robotics work (the OpenAI robotic hand / Rubik's cube) and program synthesis.",
+      "highlights": [
+        {"title": "Google Scholar", "url": "https://scholar.google.com/citations?user=09tVzasAAAAJ&hl=en", "note": "Robotics and reasoning publications"},
+        {"title": "On o1 and teaching models to reason", "url": "https://x.com/yasuoyamasaki/status/1876644462522454148", "note": "Panel with Noam Brown and Hunter Lightman"}
+      ]
+    },
+    {
+      "name": "Ilya Sutskever",
+      "section": "Foundational",
+      "role": "OpenAI co-founder & former Chief Scientist — CEO, Safe Superintelligence Inc.",
+      "x": "https://x.com/ilyasut",
+      "blog": null,
+      "site": "https://en.wikipedia.org/wiki/Ilya_Sutskever",
+      "bio": "Co-founder and former Chief Scientist of OpenAI; foundational deep-learning researcher (AlexNet, seq2seq). In June 2024 co-founded and now leads Safe Superintelligence Inc. (SSI). PhD at Toronto under Geoffrey Hinton.",
+      "highlights": [
+        {"title": "Announcing Safe Superintelligence Inc.", "url": "https://x.com/ilyasut/status/1803472978753303014", "note": "Tweet launching SSI"},
+        {"title": "SSI mission", "url": "https://x.com/ilyasut/status/1803472979873128498", "note": "One goal, one product: safe superintelligence"}
+      ]
+    },
+    {
+      "name": "Jason Wei",
+      "section": "Foundational",
+      "role": "Research scientist — chain-of-thought, emergence (later Meta)",
+      "x": "https://x.com/_jasonwei",
+      "blog": "https://www.jasonwei.net/blog",
+      "site": "https://www.jasonwei.net/",
+      "bio": "AI research scientist (ex-Google Brain, ex-OpenAI, now Meta Superintelligence Labs) known for popularizing chain-of-thought prompting, instruction tuning (FLAN) and emergent abilities. At OpenAI worked on reasoning and agents, contributing to o1. Prolific, candid writer on X and his blog.",
+      "highlights": [
+        {"title": "Chain-of-Thought Prompting Elicits Reasoning", "url": "https://arxiv.org/abs/2201.11903", "note": "Landmark CoT paper (5,000+ citations)"},
+        {"title": "Asymmetry of verification & verifier's law", "url": "https://www.jasonwei.net/blog/asymmetry-of-verification-and-verifiers-law", "note": "Blog: tasks easy to verify get conquered by RL"},
+        {"title": "Stanford CS25: Intuitions on Language Models", "url": "https://www.youtube.com/watch?v=3gb-ZkVRemQ", "note": "Lecture with Hyung Won Chung"}
+      ]
+    },
+    {
+      "name": "Jonathan Gordon",
+      "section": "Foundational",
+      "role": "Research scientist — meta-learning, neural processes",
+      "x": "https://x.com/GordonJo76",
+      "blog": null,
+      "site": "https://gordonjo.github.io/",
+      "bio": "Research Scientist at OpenAI (since 2020), based in London, and an o1 contributor. PhD in ML at Cambridge (MLG); thesis on probabilistic meta-learning and the neural process family (ConvCNP, ICLR 2020 oral).",
+      "highlights": [
+        {"title": "Google Scholar", "url": "https://scholar.google.com/citations?user=IZGi3pEAAAAJ&hl=en", "note": "Neural processes and meta-learning"},
+        {"title": "Cambridge MLG profile", "url": "https://mlg.eng.cam.ac.uk/people/jonathan-gordon/", "note": "PhD-era research page"}
+      ]
+    },
+    {
+      "name": "Karl Cobbe",
+      "section": "Foundational",
+      "role": "Research lead — math/reasoning & RL generalization",
+      "x": "https://x.com/karlcobbe",
+      "blog": null,
+      "site": "https://scholar.google.com/citations?user=stCljMYAAAAJ&hl=en",
+      "bio": "Research lead at OpenAI focused on mathematical reasoning and RL. Led GSM8K and 'Training Verifiers to Solve Math Word Problems,' co-authored 'Let's Verify Step by Step,' and earlier pioneered RL generalization (CoinRun, Procgen). o1 contributor.",
+      "highlights": [
+        {"title": "Let's Verify Step by Step", "url": "https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervision/Lets_Verify_Step_by_Step.pdf", "note": "Process supervision for math reasoning"},
+        {"title": "Training Verifiers (GSM8K)", "url": "https://arxiv.org/abs/2110.14168", "note": "Introduced the GSM8K dataset"},
+        {"title": "Quantifying Generalization in RL", "url": "https://arxiv.org/abs/1812.02341", "note": "CoinRun / Procgen benchmark"}
+      ]
+    },
+    {
+      "name": "Kevin Yu",
+      "section": "Foundational",
+      "role": "Researcher — o1 contributor",
+      "x": null,
+      "blog": null,
+      "site": null,
+      "bio": "Foundational contributor to OpenAI o1; per OpenAI's contribution pages also contributed to code capability and data infrastructure for GPT-4 and the deep research project. 'Kevin Yu' is a common name and no public profile could be confidently verified, so links are intentionally omitted.",
+      "highlights": [
+        {"title": "OpenAI o1 Contributions", "url": "https://openai.com/openai-o1-contributions/", "note": "Official page crediting him"}
+      ]
+    },
+    {
+      "name": "Lukas Kondraciuk",
+      "section": "Foundational",
+      "role": "Training-infrastructure lead — distributed training / HPC",
+      "x": "https://x.com/lukasz_kondr",
+      "blog": null,
+      "site": "https://github.com/xman1024",
+      "bio": "Łukasz Kondraciuk, training-infrastructure engineer at OpenAI (self-described 'Strawberry training infra lead'), specializing in HPC and distributed systems. Built distributed training infra for GPT-4, GPT-4V and GPT-4.5. ICPC silver medalist (University of Warsaw). o1 contributor.",
+      "highlights": [
+        {"title": "On o1 authoring OpenAI code PRs", "url": "https://x.com/lukasz_kondr/status/1834643103397167326", "note": "Noted o1 had solely authored PRs to the OpenAI codebase"},
+        {"title": "GitHub — xman1024", "url": "https://github.com/xman1024", "note": "HPC, distributed systems, deep learning"}
+      ]
+    },
+    {
+      "name": "Max Schwarzer",
+      "section": "Foundational",
+      "role": "RL researcher — post-training (later Anthropic)",
+      "x": "https://x.com/max_a_schwarzer",
+      "blog": "https://www.maxschwarzer.com/",
+      "site": "https://scholar.google.com/citations?hl=en&user=YmWRSvgAAAAJ",
+      "bio": "RL researcher focused on scaling, sample efficiency and representation learning. PhD at Mila (Courville & Bellemare); prior stints at Google Brain/DeepMind and Apple (SPR, 'Reincarnating RL'). Senior figure in OpenAI post-training, contributing to o1 and the strong IOI results, before moving to Anthropic.",
+      "highlights": [
+        {"title": "Personal site", "url": "https://www.maxschwarzer.com/", "note": "Background, research philosophy, publications"},
+        {"title": "On o1's IOI result", "url": "https://x.com/max_a_schwarzer/status/1834304966607220941", "note": "Model matching strong human contestants under IOI conditions"},
+        {"title": "TalkRL podcast", "url": "https://www.talkrl.com/episodes/max-schwarzer", "note": "Interview on sample-efficient/scaling RL"}
+      ]
+    },
+    {
+      "name": "Mostafa Rohaninejad",
+      "section": "Foundational",
+      "role": "Research scientist — reasoning, RL, competitive programming",
+      "x": "https://x.com/MostafaRohani",
+      "blog": null,
+      "site": "https://scholar.google.com/citations?user=0qW2Sr8AAAAJ&hl=en",
+      "bio": "Research scientist at OpenAI and foundational contributor to o1. Previously at Covariant and Berkeley AI Research (BAIR); interests in meta-learning and RL. A public voice on OpenAI's reasoning milestones, including the perfect 12/12 score at the 2025 ICPC World Finals.",
+      "highlights": [
+        {"title": "OpenAI wins 2025 ICPC World Finals (12/12)", "url": "https://x.com/MostafaRohani/status/1968360976379703569", "note": "Perfect score that would have ranked first among human teams"},
+        {"title": "OpenAI o1 Contributions", "url": "https://openai.com/openai-o1-contributions/", "note": "Listed among foundational contributors"}
+      ]
+    },
+    {
+      "name": "Noam Brown",
+      "section": "Foundational",
+      "role": "Research scientist — reasoning, multi-agent, test-time compute",
+      "x": "https://x.com/polynoamial",
+      "blog": null,
+      "site": "https://noambrown.github.io/",
+      "bio": "Research scientist at OpenAI and a key figure behind the o-series and the test-time/inference-compute scaling paradigm. Co-created superhuman poker AIs Libratus and Pluribus (CMU PhD) and the Diplomacy AI CICERO at Meta FAIR. Pluribus was a Science top-10 breakthrough of 2019.",
+      "highlights": [
+        {"title": "Teaching LLMs to Reason (Sequoia podcast)", "url": "https://www.sequoiacap.com/podcast/training-data-noam-brown/", "note": "How o1 reasons via chain-of-thought and test-time compute"},
+        {"title": "Scaling Test-Time Compute (Latent Space)", "url": "https://www.latent.space/p/noam-brown", "note": "Long-form interview on inference-time scaling"},
+        {"title": "Why he joined OpenAI", "url": "https://x.com/polynoamial/status/1834281212787236945", "note": "From poker/Diplomacy to the o1 paradigm"}
+      ]
+    },
+    {
+      "name": "Shengjia Zhao",
+      "section": "Foundational",
+      "role": "Research lead — co-creator of ChatGPT & GPT-4o (later Meta MSL chief scientist)",
+      "x": "https://x.com/shengjia_zhao",
+      "blog": null,
+      "site": "https://cs.stanford.edu/~zhaosj12/",
+      "bio": "Foundational contributor to o1 and co-creator of ChatGPT, GPT-4 and GPT-4o; also led o1-mini. PhD in CS at Stanford (generative models, calibration, uncertainty). In July 2025 became chief scientist of Meta Superintelligence Labs.",
+      "highlights": [
+        {"title": "Launching o1-mini", "url": "https://x.com/shengjia_zhao/status/1834279234983866752", "note": "Cheap reasoning model ~70% AIME, 1650 Codeforces elo"},
+        {"title": "Chief scientist of Meta Superintelligence Labs", "url": "https://x.com/shengjia_zhao/status/1948848412264206577", "note": "His new role leading ASI research at Meta"}
+      ]
+    },
+    {
+      "name": "Trapit Bansal",
+      "section": "Foundational",
+      "role": "Research scientist — RL + reasoning (later Meta)",
+      "x": "https://x.com/TrapitBansal",
+      "blog": "https://trapitbansal.com/",
+      "site": "https://scholar.google.com/citations?user=hHPeXmYAAAAJ&hl=en",
+      "bio": "Co-led OpenAI's RL-for-reasoning effort and was a foundational contributor to o1, helping kickstart the company's RL reasoning work. PhD at UMass Amherst (few-shot NLP via meta-learning); interned at OpenAI in 2017 on multi-agent RL. In 2025 moved to Meta Superintelligence Labs.",
+      "highlights": [
+        {"title": "Personal site", "url": "https://trapitbansal.com/", "note": "Meta-learning, RL and reasoning research"},
+        {"title": "Meta hires key OpenAI reasoning researcher", "url": "https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models/", "note": "TechCrunch on his o1 role and Meta move"}
+      ]
+    },
+    {
+      "name": "Vineet Kosaraju",
+      "section": "Foundational",
+      "role": "Member of Technical Staff — process supervision, math/reasoning",
+      "x": "https://x.com/vineetsk1",
+      "blog": null,
+      "site": "https://vineetkosaraju.com/",
+      "bio": "MTS at OpenAI (since 2020) and foundational contributor to o1, working on process supervision and math reasoning ('Mathgen'). BS/MS in CS from Stanford (human motion/trajectory prediction in the Vision and Learning Lab); head TA for CS230.",
+      "highlights": [
+        {"title": "Personal site / resume", "url": "https://vineetkosaraju.com/", "note": "OpenAI work, Stanford research, interests"},
+        {"title": "OpenAI o1 Contributions", "url": "https://openai.com/openai-o1-contributions/", "note": "Listed among foundational contributors"}
+      ]
+    },
+    {
+      "name": "Wenda Zhou",
+      "section": "Foundational",
+      "role": "Researcher — multimodal reasoning, statistics/deep learning",
+      "x": "https://x.com/zhouwenda",
+      "blog": null,
+      "site": "https://wendazhou.com/",
+      "bio": "Researcher at OpenAI and foundational contributor to o1, including its multimodal capabilities (o1 SOTA on MMMU). PhD in statistics from Columbia; previously at NYU's Center for Data Science and the Simons Foundation. Interests span high-dimensional statistics, compressed sensing and deep learning.",
+      "highlights": [
+        {"title": "o1 is multimodal & SOTA on MMMU", "url": "https://x.com/zhouwenda/status/1834647700249493619", "note": "Post on o1's multimodal results"},
+        {"title": "Personal site", "url": "https://wendazhou.com/", "note": "OpenAI role plus statistics/ML research"},
+        {"title": "Google Scholar", "url": "https://scholar.google.com/citations?user=CdrwG8AAAAAJ&hl=en", "note": "Statistics and ML publications"}
+      ]
+    }
+  ]
+}
